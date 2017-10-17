@@ -8,6 +8,9 @@ class TvShowService {
     return this.tvShows;
   }
 
+  getById(checkid) {
+    return this.tvShows.find(show => show.id == checkid);
+  }
 
 }
 module.exports = new TvShowService;
