@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/mordbad/nerdSchool-modernJS/issues"
   },
-  "homepage": "https://github.com/mordbad/nerdSchool-modernJS#readme"
+  "homepage": "https://github.com/mordbad/nerdSchool-modernJS#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "morgan": "^1.9.0"
+  }
 }
