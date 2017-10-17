@@ -9,7 +9,7 @@ class TvShowService {
   }
 
   getById(checkid) {
-    return this.tvShows.find(show => show.id == checkid);
+    return this.tvShows.find(show => show.id === parseInt(checkid));
   }
 
 }
